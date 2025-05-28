@@ -8,3 +8,6 @@ dependencies = [
     "cryptography>=45.0.3",
     "streamlit>=1.45.1",
 ]
+
+[tool.poetry]
+package-mode = false
