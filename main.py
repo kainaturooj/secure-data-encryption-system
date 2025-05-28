@@ -91,7 +91,7 @@ def login_page():
             st.session_state.authorized = True
             failed_attempts.clear()
             save_attempts(failed_attempts)
-            st.success("Login successful! Redirecting...")
+            st.success("Login successful!")
             time.sleep(1)
             st.rerun()
         else:
